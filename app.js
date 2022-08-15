@@ -93,7 +93,7 @@ p.innerText = `${tg.initDataUnsafe.first_name}
 ${tg.initDataUnsafe.last_name}`;
 
 
-// usercard.appendChild(p); 
+usercard.appendChild(p); 
 
 
 
