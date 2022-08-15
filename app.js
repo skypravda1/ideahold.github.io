@@ -92,15 +92,8 @@ let p = document.createElement("p");
 p.innerText = `${tg.initDataUnsafe.first_name}
 ${tg.initDataUnsafe.last_name}`;
 
-usercard.appendChild(p);
 
-let usercard = document.getElementById("usercard");
-
-let profName = document.createElement('p');
-profName.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}`;
-
-// usercard.appendChild(profName); 
+// usercard.appendChild(p); 
 
 
 
