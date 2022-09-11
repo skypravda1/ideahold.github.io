@@ -7,13 +7,12 @@ tg.MainButton.color = "#2cab37";
 
 let btn = document.getElementById("btn");
 
-btn_func = btn.addEventListener("click", function(){
+btn.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
-		return '1';
 		tg.MainButton.show();
 	}
 });
