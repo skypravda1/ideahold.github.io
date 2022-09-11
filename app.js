@@ -13,21 +13,16 @@ btn.addEventListener("click", function(){
 	}
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
+
+		let item = '10'
 		tg.MainButton.show();
 	}
-});
-
-const form  = document.getElementById('Form1');
-
-form_func = form.addEventListener('submit', (event) => {
-	return form.elements['name'].value;
-    alert(form.elements['name'].value);
 });
 
 
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
-	tg.sendData(form_func);
+	tg.sendData(item);
 });
 
 let usercard = document.getElementById("usercard");
