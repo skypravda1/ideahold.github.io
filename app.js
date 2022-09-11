@@ -5,9 +5,9 @@ tg.expand();
 tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#2cab37";
 
-let btn1 = document.getElementById("btn1");
+let btn = document.getElementById("btn");
 
-btn_func = btn1.addEventListener("click", function(){
+btn_func = btn.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
